@@ -1,0 +1,34 @@
+site_name: Motion Guide Documentation Template
+site_url: https://sitename.example
+theme:
+  name: material
+  font: 
+   text: Roboto
+   code: Red Hat Mono
+  logo: assets/oxenfree-favicon.jpg
+  favicon: assets/oxenfree-favicon.jpg
+  features:
+    - navigation.footer
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: custom
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+
+extra:
+  social:
+    - icon: simple/youtube
+      link: https://youtube.com
